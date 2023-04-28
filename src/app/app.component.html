@@ -61,8 +61,8 @@
  </div>-->
 
  <div class="search">
-  <form action="">
-    <input type="text" placeholder="search city">
+  <form #form="ngForm" (submit)="onSubmit()">
+    <input type="text" placeholder="search city" name="city" [(ngModel)] = "cityName">
   </form>
  </div>
 
