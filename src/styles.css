@@ -2,7 +2,7 @@
 
 :root{
   --blue-1: #3c429e;
-  --blue-2: #4c52ad;
+  --blue-2: #767aaa;
   --yellow-1: #fac742;
   --white: #fff;
   --grey-1: #ededed;
@@ -120,7 +120,7 @@ body{
 }
 
 .info-block-label img{
-  width: 1.5em;
+  width: 3.5em;
 }
 
 .info-block-label span{
@@ -134,4 +134,19 @@ body{
   justify-content: flex-start;
   align-items: center;
   color: var(--white);
+}
+
+.search{
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.search input{
+  background-color: var(--shadow-dark);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 1em;
+  font-size: .8em;
+  text-align: center;
 }
